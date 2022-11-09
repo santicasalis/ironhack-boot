@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+.fuente{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: x-large;
+}
+.otraFuente{
+  font-family:  sans-serif;
+}
+
+#tabla{
+    background-color: aquamarine;
+    border-collapse: collapse;
+   
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    color: brown;
+    font-size: x-large;
+}
+
+.comida{
+    margin-right:100px;
+}
+tbody {
+    border: blue 5px solid;
+  }
+  tr {
+    border: green 5px solid;
+  }
+  td {
+    border: green 5px solid;
+  }
+  
