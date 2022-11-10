@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em; 
+    
+}
+
+.container {
+    max-width: 80%;
+    margin: 30px auto;
+    text-align: center;
+   
+}
+
+.articulo-1{
+    float:left;
+    width: 65%;
+    background: yellow;
+    
+    
+}
+.articulo-2{
+    float: right;
+    width: 30%;
+    background: blue;
+  
+
+}
+header{
+    background: red;
+}
+
+a {
+   
+    color: #333;
+    text-decoration: none;
+    
+    font-size: 30px ;
+}
+
+.copiar {
+
+    background: blue;
+}
+.copiar:active{
+    color:white;
+    border: green 3px solid
+}
+.borrar:active{
+
+    color:white;
+    border: green 3px solid
+}
+.borrar {
+background: red;
+margin: 15px 0px 0px 0px;
+}
+.btn{
+    background: yellow;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+     margin: 15px 0px 0px 0px ;
+}
+.btn:hover{
+    background-color: blueviolet;
+    border: 5px solid red;
+}
+
+
+</style>
+<body>
+    <div class="container">
+    <header>
+  
+        <h2>Ejercicio Float</h2>
+
+    </header>
+    <section>
+      <article class="articulo-1">
+   <h3>Temario CSS y Html</h3>
+   <ul>
+    <li>Box model</li>
+    <li>formularios</li>
+    
+   </ul>
+   <a  class="copiar"href="#">Copiar</a>
+   
+      </article>
+      <article class="articulo-2">
+        <h3>Futuras clases</h3>
+        
+   <ul>
+    <li>Javascript</li>
+    <li>Vue.js</li>
+    <a  class="borrar" href="#">Borrar</a>
+   </ul>
+
+      </article>
+    </section>
+    
+<footer>
+    <button class="btn">My button</button>
+</footer>
+
+</div>
+
+
+
+</body>
+</html>
