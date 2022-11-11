@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+   
+    
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 4rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: white;
+}
+header picture img{
+    max-width: 120px;
+    margin-left: 0.5rem;
+}
+
+nav{
+    margin-right: 0.5rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+
+}
+
+nav ul li {
+    margin: 0px 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+ a{
+    text-decoration: none;
+
+}
+
+.music-for{
+    background-image: url(../images/landing.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+     text-align: center ;
+     
+}
+
+.music-for h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    text-align: center;
+
+
+}
+
+.music-for p {
+    font-family:'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+#whats-on {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: auto;
+   
+    
+       
+}
+
+
+
+ h2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color:#00B172;
+    font-size: xx-large;
+}
+
+#whats-on div {
+    width: 200px;
+    
+    padding:0rem 4rem
+}
+#whats-on img{
+    max-width: 120px;
+    
+    
+}
+#whats-on p {
+    font-size: large;
+    
+    opacity:0.60
+}
+
+#whats-on h4{
+    color:#00B172 ;
+    
+    font-size: larger;
+    
+}
+
+
+.greensection{
+    background-color: #00B172;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+    
+
+
+}
+
+
+.greensection h3{
+    font-size: xx-large;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color:white;
+   
+  
+
+}
+.option{
+display:flex;
+flex-direction: column;
+width: 400px;
+
+
+}
+.option h4{
+    font-size: xx-large;
+;
+}
+.option p{
+    font-size: large;
+    font-weight: bold;
+    opacity:0.75
+    
+}
+
+.logoblanco {
+    width: 120px;
+    
+    
+    
+    
+}
+.app{
+    width: 400px;
+    padding:4rem 2rem 4rem 0rem;
+
+    
+}
