@@ -75,7 +75,7 @@ margin: 0 0 3rem 2rem;
 counter-reset: section;
 }
 #directions ol li::before{
-    content:""counter(section)")";
+    content:""counter(section)") ";
     counter-increment: section;
 
 }
