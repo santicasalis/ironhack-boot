@@ -115,3 +115,12 @@ git pull origin "nombre del branch/rama que estaremos apuntando"
 # Javascript
 
 ### Clase 14-11
+
+[Operadores lógicos]()
+
+[Valores primitivos]()
+
+### Clase 14-11
+
+[Métodos String]()
+[Métodos number]()
