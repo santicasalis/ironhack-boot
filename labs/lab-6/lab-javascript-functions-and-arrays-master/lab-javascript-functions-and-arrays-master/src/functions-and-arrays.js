@@ -229,10 +229,12 @@ function greatestProduct(matrix) {
   const isOne = (currentValue) => currentValue === 1;
   const isTwo = (currentValue) => currentValue ===2;
   matrix.forEach(element => {
-    if (element.every(isOne)) return 1
-    if(element.every(isTwo)) return 16
-});
-
+    element.forEach(ele=> {
+    
+    if (ele.every(isOne)) return 1
+    if(ele.every(isTwo)) return 16
+  })
+  })
 }
 
 
