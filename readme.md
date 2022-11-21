@@ -120,7 +120,20 @@ git pull origin "nombre del branch/rama que estaremos apuntando"
 
 [Valores primitivos]()
 
-### Clase 14-11
+### Clase 15-11
 
-[Métodos String]()
-[Métodos number]()
+[Métodos String](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
+[Métodos number](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number)
+[Eventos](https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=842:lista-de-eventos-javascript-on-click-dblclick-mouseover-mouseout-change-submit-keypress-cu01159e&catid=78&Itemid=206)
+
+### Clase 16-11
+
+[Métodos Array](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+### Clase 17-11
+
+[Callback](https://codearmy.co/que-es-el-callback-hell-y-como-evitarlo-4af418a6ed14)
+
+### Clase 18-11
+
+[Async- Await](https://www.youtube.com/watch?v=rKK1q7nFt7M&feature=youtu.be)
