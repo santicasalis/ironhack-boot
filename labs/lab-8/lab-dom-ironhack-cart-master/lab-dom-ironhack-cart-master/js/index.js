@@ -71,7 +71,7 @@ function createProduct() {
   let newProdPriceInput = createRow.querySelector("input[type='number']")
   let newProdPriceValue = Number(newProdPriceInput.valueAsNumber).toFixed(2)
   
-
+  
   const newTableRow = document.createElement("tr")
   newTableRow.className = "product"
   newTableRow.innerHTML = `
@@ -87,8 +87,15 @@ function createProduct() {
      <button class="btn btn-remove" >Remove</button>
   </td>
   `
-  const parent = document.querySelector("#cart tbody")
-  parent.appendChild(newTableRow)
+  if (newProdNameValue !== "" && newProdPriceValue!=0) {
+   
+    const parent = document.querySelector("#cart tbody")
+    parent.appendChild(newTableRow)
+  } 
+  else {
+    alert("Le falta ingresar el nombre del Producto y o su precio")
+  
+  }
   
   const removeBtn = newTableRow.querySelector('.btn-remove');
   removeBtn.addEventListener('click', removeProduct);
