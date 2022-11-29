@@ -141,3 +141,13 @@ git pull origin "nombre del branch/rama que estaremos apuntando"
 ### Clase 21-11
 
 [Fetch API]()
+
+### Clase 22-11 al 25-11
+
+Realizamos el proyecto midterm
+
+### Clase 28-11
+
+[Vue] (https://vuejs.org/guide/introduction.html#what-is-vue)
+
+[ref y reactive] (https://vuejsdevelopers.com/2022/06/01/ref-vs-reactive/)
