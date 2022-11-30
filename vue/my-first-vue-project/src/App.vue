@@ -2,7 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import FirstComponent from './components/vue-basics/FirstComponent.vue';
 import OnclickVue from './components/vue-basics/Onclick.vue';
-
+import Conditional from './components/vue-basics/Conditional.vue'
 </script>
 
 <template>
@@ -18,6 +18,7 @@ import OnclickVue from './components/vue-basics/Onclick.vue';
   <main>
     
    <FirstComponent /> 
+   <Conditional/>
   
   </main>
   <Onclick/>
