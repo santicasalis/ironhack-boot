@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import FirstComponent from './components/vue-basics/FirstComponent.vue';
 import OnclickVue from './components/vue-basics/Onclick.vue';
 import Conditional from './components/vue-basics/Conditional.vue'
+import Computed from './components/vue-basics/Computed.vue'
 </script>
 
 <template>
@@ -22,6 +23,9 @@ import Conditional from './components/vue-basics/Conditional.vue'
   
   </main>
   <Onclick/>
+
+  <h2>Computed</h2>
+  <Computed/>
 </div>
 </template>
 
