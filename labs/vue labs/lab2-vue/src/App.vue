@@ -1,23 +1,30 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Iteracion2 from './components/Iteracion2.vue'
+import Iteracion3 from './components/Iteracion3.vue'
+import Iteracion4 from './components/Iteracion4.vue'
+import Iteracion5 from './components/Iteracion5.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+  <div>
+  
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
+     <Header/> 
+   
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+   <Iteracion-2/>
+   <Iteracion-3/>
+   <Iteracion-4/>
+   <Iteracion-5/>
     </div>
-  </header>
+  
 
   <RouterView />
+  </div>
 </template>
 
 <style scoped>
