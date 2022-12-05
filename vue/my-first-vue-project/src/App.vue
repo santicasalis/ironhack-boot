@@ -4,6 +4,7 @@ import FirstComponent from './components/vue-basics/FirstComponent.vue';
 import OnclickVue from './components/vue-basics/Onclick.vue';
 import Conditional from './components/vue-basics/Conditional.vue'
 import Computed from './components/vue-basics/Computed.vue'
+import Watch from './components/vue-basics/Watch.vue'
 </script>
 
 <template>
@@ -26,6 +27,10 @@ import Computed from './components/vue-basics/Computed.vue'
 
   <h2>Computed</h2>
   <Computed/>
+
+
+  <h1>Ejercicio watch</h1>
+  <Watch/>
 </div>
 </template>
 
