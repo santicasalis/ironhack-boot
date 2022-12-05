@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
 import Iteracion2 from './components/Iteracion2.vue'
 import Iteracion3 from './components/Iteracion3.vue'
@@ -22,7 +23,7 @@ import Iteracion5 from './components/Iteracion5.vue'
    <Iteracion-5/>
     </div>
   
-
+<Footer/>
   <RouterView />
   </div>
 </template>
